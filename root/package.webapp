@@ -1,0 +1,9 @@
+{
+  "name": "{%= app_name %}",
+  "version": "{%= version %}",
+  "package_path": "{%= homepage %}/package.zip",
+  "developer": {
+    "name": "{%= author_name %}",
+    "url": "{%= author_url %}"
+  }
+}

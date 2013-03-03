@@ -1,0 +1,4 @@
+{
+  "css/webapp.css": "css/{%= short_name %}.css",
+  "js/webapp.js": "js/{%= short_name %}.js"
+}

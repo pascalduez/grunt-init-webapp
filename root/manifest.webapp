@@ -1,0 +1,21 @@
+{
+  "name": "{%= app_name %}",
+  "version": "{%= version %}",
+  "description": "{%= description %}",
+  "launch_path": "{%= app_root %}/index.html",
+  "icons": {
+    "16": "{%= app_root %}/img/icon-16.png",
+    "32": "{%= app_root %}/img/icon-32.png",
+    "48": "{%= app_root %}/img/icon-48.png",
+    "64": "{%= app_root %}/img/icon-64.png",
+    "128": "{%= app_root %}/img/icon-128.png",
+    "256": "{%= app_root %}/img/icon-256.png"
+  },
+  "developer": {
+    "name": "{%= author_name %}",
+    "url": "{%= author_url %}"
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en",
+  "permissions": {}
+}

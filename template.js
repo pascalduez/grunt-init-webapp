@@ -93,7 +93,8 @@ exports.template = function(grunt, init, done) {
         "grunt-regarde": "~0.1.1",
         "grunt-contrib-connect": "~0.2.0",
         "grunt-contrib-livereload": "~0.1.2",
-        "grunt-contrib-jshint": "~0.4.3"
+        "grunt-contrib-jshint": "~0.4.3",
+        "matchdep": "~0.1.2"
       }
     });
 

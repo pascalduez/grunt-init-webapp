@@ -1,6 +1,6 @@
 
-(function( window, document ) {
+(function( window, undefined ) {
 
   "use strict";
 
-}( this, this.document ));
+}( this ));

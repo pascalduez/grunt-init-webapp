@@ -5,7 +5,7 @@
 var path = require("path");
 
 // Basic template description.
-exports.description = "Scafold a basic WebApp.";
+exports.description = "Scaffold a basic WebApp.";
 
 // Template-specific notes to be displayed before question prompts.
 exports.notes = "";
@@ -17,7 +17,7 @@ exports.warnOn = "*";
 exports.template = function(grunt, init, done) {
 
   grunt.util._.extend( init.prompts, {
-    // @TODO: Why did I not use prompts.name exactly ?
+    // @TODO: Why not using prompts.name exactly ?
     "app_root": {
       message: "WebApp package and root directory.",
       default: function(value, data, done) {
@@ -88,13 +88,13 @@ exports.template = function(grunt, init, done) {
       version: props.version,
       node_version: '>= 0.8.0',
       devDependencies: {
-        "grunt": "~0.4.0",
+        "grunt": "~0.4.1",
         "grunt-open": "~0.2.0",
         "grunt-regarde": "~0.1.1",
-        "grunt-contrib-connect": "~0.1.2",
+        "grunt-contrib-connect": "~0.2.0",
         "grunt-contrib-livereload": "~0.1.2",
-        "grunt-contrib-jshint": "~0.2.0"
-      },
+        "grunt-contrib-jshint": "~0.4.3"
+      }
     });
 
     // All done!

@@ -1,3 +1,5 @@
+<div align="center">⚠️ Archived project</div>
+
 # grunt-init-webapp
 
 > Scaffold a basic WebApp with [grunt-init][].
